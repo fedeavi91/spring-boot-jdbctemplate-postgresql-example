@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bezkoder</groupId>
-	<artifactId>spring-boot-jdbctemplate-postgresql</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-jdbctemplate-postgresql</name>
+	<artifactId>tutorial-app</artifactId>
+	<version>1.0</version>
+	<name>tutorial-app</name>
 	<description>Spring Boot JDBCTemplate CRUD example with PostgreSQL Database - Rest API</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -31,6 +31,7 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
+			<version>42.5.4</version>
 		</dependency>
 		
 		<dependency>
