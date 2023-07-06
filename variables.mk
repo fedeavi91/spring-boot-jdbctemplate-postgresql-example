@@ -1,1 +1,1 @@
-HOMEPATH_PROJECT='home/federico/progetti/tutorial-app/server'
+HOMEPATH_PROJECT=tutorial-app/server
