@@ -1,1 +1,1 @@
-HOMEPATH_PROJECT=adasdsd3434asd
+HOMEPATH_PROJECT=/tutorial-app/server
