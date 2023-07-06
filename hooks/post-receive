@@ -2,7 +2,7 @@
 
 remoteProjectPath='/server'
 localProjectPath=''
-filename='variables.mk'
+filename='/tutorial-app/variables.mk'
 
 LINE=1
 
