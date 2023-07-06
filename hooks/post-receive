@@ -1,0 +1,29 @@
+#!/bin/sh
+
+remoteProjectPath='/server'
+localProjectPath=''
+filename='variables.mk'
+
+LINE=1
+
+while read -r CURRENT_LINE
+	do
+		echo "$LINE: $CURRENT_LINE"
+		if [[ "$LINE" == 1 ]]; then
+			echo "LINE uguale 1"
+			localProjectPath=$(echo $CURRENT_LINE| cut -d'=' -f 2)
+	fi
+    ((LINE++))
+done < $filename
+
+echo "localProjectPath = $localProjectPath"
+
+
+echo "remoteProjectPath = $remoteProjectPath"
+echo "localProjectPath = $localProjectPath"
+
+
+
+if [[ "$remotePathProject" != "$localProjectPath" ]]; then
+	sed -i "s@$localProjectPath@$remoteProjectPath@g" $filename
+fi

@@ -1,1 +1,1 @@
-HOMEPATH_PROJECT=344sadadasdsadasd
+HOMEPATH_PROJECT=/server
