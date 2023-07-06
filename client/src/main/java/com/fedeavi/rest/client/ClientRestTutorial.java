@@ -26,6 +26,8 @@ public class ClientRestTutorial {
         this.url = "http://localhost:8081/api/tutorials";
     }
 
+
+    
     public List<TutorialPojo> getAllTutorials() {
 
         List<TutorialPojo> listTutorialPojo = null;
