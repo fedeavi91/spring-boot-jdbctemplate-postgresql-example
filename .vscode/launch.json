@@ -1,0 +1,22 @@
+{
+    // Usare IntelliSense per informazioni sui possibili attributi.
+    // Al passaggio del mouse vengono visualizzate le descrizioni degli attributi esistenti.
+    // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TutorialAppClient",
+            "request": "launch",
+            "mainClass": "com.fedeavi.rest.TutorialAppClient",
+            "projectName": "tutorial-app-client"
+        },
+        {
+            "type": "java",
+            "name": "TutorialAppServer",
+            "request": "launch",
+            "mainClass": "com.bezkoder.spring.jdbc.postgresql.TutorialAppServer",
+            "projectName": "tutorial-app"
+        }
+    ]
+}

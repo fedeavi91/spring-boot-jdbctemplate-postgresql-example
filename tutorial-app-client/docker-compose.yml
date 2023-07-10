@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  tutorial-app-client:
+    build: .
+    container_name: tutorial-app-client
+    hostname: app-client
+    ports:
+      - 8081:8080
+      - 8780:8787
+    networks:
+      tutorial-net: null
+      
+networks:
+  tutorial-net:
+    external: true
+    name: tutorial-net
+
+
+    

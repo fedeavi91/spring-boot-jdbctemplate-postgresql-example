@@ -1,0 +1,8 @@
+com/fedeavi/rest/main/RestEasyServices.class
+com/fedeavi/rest/TutorialAppClient.class
+com/fedeavi/rest/Tutorial.class
+com/fedeavi/rest/TutorialRestController.class
+com/fedeavi/rest/TutorialRestService.class
+com/fedeavi/rest/client/ClientRestTutorial.class
+com/fedeavi/rest/main/RestUtility.class
+com/fedeavi/rest/client/TutorialPojo.class
