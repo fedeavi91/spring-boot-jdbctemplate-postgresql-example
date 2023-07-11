@@ -1,0 +1,15 @@
+#General project files
+*/target
+*/jar
+
+
+#Avoid settings 
+*/.settings
+*/.project
+*/.classpath
+
+#Avoid settings for VSCode
+*.code-workspace
+.vscode
+*/.vscode
+
